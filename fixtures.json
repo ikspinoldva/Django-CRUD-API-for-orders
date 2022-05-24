@@ -1,0 +1,150 @@
+[
+    {
+        "model": "orders.category",
+        "pk": 1,
+        "fields": {
+            "name": "computers"
+        }
+    },
+    {
+        "model": "orders.category",
+        "pk": 2,
+        "fields": {
+            "name": "printers"
+        }
+    },
+    {
+        "model": "orders.category",
+        "pk": 3,
+        "fields": {
+            "name": "clothes"
+        }
+    },
+    {
+        "model": "orders.category",
+        "pk": 4,
+        "fields": {
+            "name": "transport"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 1,
+        "fields": {
+            "category": 1,
+            "name": "macbook air",
+            "amount": "5400.00",
+            "date": "2022-02-03"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 2,
+        "fields": {
+            "category": 1,
+            "name": "lenovo thinkpad",
+            "amount": "4600.00",
+            "date": "2022-02-03"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 3,
+        "fields": {
+            "category": 1,
+            "name": "macbook pro",
+            "amount": "6600.00",
+            "date": "2022-02-02"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 4,
+        "fields": {
+            "category": 1,
+            "name": "hp omen",
+            "amount": "3300.00",
+            "date": "2022-02-02"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 5,
+        "fields": {
+            "category": 1,
+            "name": "mac pro",
+            "amount": "8600.00",
+            "date": "2021-12-27"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 6,
+        "fields": {
+            "category": 2,
+            "name": "hp",
+            "amount": "800.00",
+            "date": "2022-02-04"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 7,
+        "fields": {
+            "category": 2,
+            "name": "epson",
+            "amount": "550.00",
+            "date": "2020-12-27"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 8,
+        "fields": {
+            "category": 2,
+            "name": "canon",
+            "amount": "300.00",
+            "date": "2022-02-04"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 9,
+        "fields": {
+            "category": 2,
+            "name": "canon",
+            "amount": "300.00",
+            "date": "2021-12-07"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 10,
+        "fields": {
+            "category": 3,
+            "name": "trousers",
+            "amount": "110.00",
+            "date": "2022-02-04"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 11,
+        "fields": {
+            "category": 3,
+            "name": "shirt",
+            "amount": "60.00",
+            "date": "2022-01-16"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 12,
+        "fields": {
+            "category": 3,
+            "name": "shirt",
+            "amount": "60.00",
+            "date": "2021-12-25"
+        }
+    }
+]

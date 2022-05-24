@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<a href="{% url 'orders:category-create' %}">add</a>
+
+<table border="1">
+	<thead>
+		<tr>
+			<th>name</th>
+			<th>number of items</th>
+			<th>actions</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for category in about_categories %}
+		<tr>
+			<td>
+				{{ category }}
+			</td>
+			<td>
+				{{ category.orders_cnt }}
+			</td>
+			<td>
+				<a href="{% url 'orders:category-edit' category.id %}">edit</a>
+				<a href="{% url 'orders:category-delete' category.id %}">delete</a>
+			</td>
+		</tr>
+		{% endfor %}
+	</tbody>
+</table>
+{% endblock %}
